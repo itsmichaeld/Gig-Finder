@@ -4,10 +4,31 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="style.css" />
     <title>Gig Finder</title>
   </head>
   <body>
+    <header>
+      <h1>Gig Finder</h1>
+      <p class="header-text">
+        A simple app to find your favourite bands upcoming gigs
+      </p>
+    </header>
+    <main>
+      <p class="username-text">Please enter your LastFM username to search</p>
+      <form action="#">
+        <label for="username">Username:</label><br />
+        <input type="text" id="username" name="username" /><br />
+        <button class="btn" id="search-btn">Search</button>
+      </form>
+      <section id="gigs"></section>
+    </main>
     <script src="script.js"></script>
   </body>
 </html>
