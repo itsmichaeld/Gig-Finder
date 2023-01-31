@@ -22,7 +22,7 @@ h1 {
   padding-top: 1em;
 }
 
-p.header-text {
+.paragraph {
   padding-bottom: 2em;
 }
 
@@ -50,6 +50,8 @@ input:focus {
 form {
   margin: 2em;
 }
+
+/* Button styles */
 .btn {
   font-family: "Inter", sans-serif;
   font-weight: 500;
